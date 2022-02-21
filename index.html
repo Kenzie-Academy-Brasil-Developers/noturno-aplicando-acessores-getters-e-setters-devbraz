@@ -5,34 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/reset.css">
   </head>
   <body>
-    <header>
-      <h1>Cadastro de funcionário</h1>
-      <h4>Programação Orientada a Objetos - Getters e Setters</h4>
-    </header>
-    <main>
-      <form id="form" action="">
-        <label for="name">Nome Completo:</label><br />
-        <input type="text" id="name" name="name" /><br />
-        <label for="birthDate">Data de Nascimento</label><br />
-        <input type="date" id="birthDate" name="birthDate" /><br />
-        <label for="cpf">CPF</label><br />
-        <input type="text" id="cpf" name="cpf" /><br />
-        <label for="phone">Telefone</label><br />
-        <input type="tel" id="phone" name="phone" /><br />
-        <label for="cellphone">Celular</label><br />
-        <input type="tel" id="cellphone" name="cellphone" /><br />
-        <label for="pis">PIS</label><br />
-        <input type="text" id="pis" name="pis" /><br />
-        <label for="studies">Estuda?</label><br />
-        <input type="checkbox" id="studies" name="studies" /><br />
-
-        <input id="btnSubmit" type="submit" value="Enviar" />
-      </form>
-    </main>
+    <div class="total">
+      <header>
+        <h1>Cadastro de funcionário</h1>
+        <h4>Programação Orientada a Objetos - Getters e Setters</h4>
+      </header>
+      <main>
+        <div >
+          <form id="form" action="">
+            <label for="name">Nome Completo:</label><br />
+            <input type="text" id="name" name="name" /><br />
+            <label for="birthDate">Data de Nascimento</label><br />
+            <input type="date" id="birthDate" name="birthDate" /><br />
+            <label for="cpf">CPF</label><br />
+            <input type="text" id="cpf" name="cpf" /><br />
+            <label for="phone">Telefone</label><br />
+            <input type="tel" id="phone" name="phone" /><br />
+            <label for="cellphone">Celular</label><br />
+            <input type="tel" id="cellphone" name="cellphone" /><br />
+            <label for="pis">PIS</label><br />
+            <input type="text" id="pis" name="pis" /><br />
+            <label for="studies">Estuda?</label><br />
+            <input type="checkbox" id="studies" name="studies" /><br />
+    
+            <input id="btnSubmit" type="submit" value="Enviar" />
+          </form>
+        </div>
+        <div>
+          <div class="content-display">
+            <h2>Output</h2>
+            <div id="results" class="textContent">
+                <!-- <p>teste</p> -->
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
     <script src="./JS/script.js"></script>
   </body>
 </html>
 
-Celular Estuda: deve ser um booleano PIS/PASEP
+<!-- Celular Estuda: deve ser um booleano PIS/PASEP -->

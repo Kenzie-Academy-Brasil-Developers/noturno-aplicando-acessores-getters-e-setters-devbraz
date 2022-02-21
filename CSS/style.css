@@ -1,0 +1,37 @@
+html {
+     width: 100%;
+     height: 100%;
+
+}
+body {
+     background-color: white;
+     display: flex;
+     align-items: center;
+     width: auto;
+     height: 100%;
+     justify-content: center;
+}
+.total {
+     font-family: 'Courier New', Courier, monospace;
+     width: 500px;
+     height: 500px;
+     background-color:lightgrey;
+     display: flex;
+     justify-content: flex-start;
+     flex-direction: column;
+     align-items: center;
+     border: 1px solid black;
+     border-radius: 10px;
+     box-shadow: 20px 20px 10px grey;
+     margin: 0;
+}
+
+header {
+     text-align: center;
+}
+.content-display {
+     text-align: center;
+}
+.textContent {
+     text-align: start;
+}
